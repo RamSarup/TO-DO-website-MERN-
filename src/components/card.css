@@ -1,0 +1,67 @@
+.task-card{
+    height: 100px;
+    width: 700px;
+    background-color: #fff;
+
+    border: 2px solid rgba(128, 128, 128, 0.63);
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.207);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+
+}
+
+.check{
+    height: 30px;
+    width: 60px;
+    color: rgb(78, 92, 214);
+    background-color: rgba(146, 149, 146, 0.475);
+    border: 1.2px solid rgba(0, 0, 0, 0.249);
+    border-radius: 20px;
+    align-self: center;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.remove{
+    height: 30px;
+    width: 60px;
+    color: rgb(78, 92, 214);
+    background-color: rgba(146, 149, 146, 0.475);
+    border: 1.2px solid rgba(0, 0, 0, 0.249);
+    border-radius: 20px;
+    align-self: center;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.remove:hover{
+    background-color: rgba(227, 56, 22, 0.666);
+}
+.check:hover{
+    background-color: rgba(22, 227, 22, 0.666);
+}
+.title-card{
+    text-align: left;
+    height: 50px;
+    max-width: 300px;
+    margin-left: 10px;
+    font-size: 1.8rem;
+}
+.desc-card{
+    text-align: left;
+    max-width: 500px;
+    height: max-content;
+    font-size: 1.2rem;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+#button{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

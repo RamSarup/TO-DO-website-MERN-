@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  background: #f3f4f6; /* light grey */
+  text-align: center;
+  font-size: 3rem;
+  color: #111827;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  height: 500px;
+  width: 750px;
+  background: #e5e7eb;
+  align-self: center;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.task{
+  align-self: flex-start;
+  margin-left: 30px;
+}
+
+
+
+
+
+/* Adder */
+
+.add-box {
+  height: 100px;
+  width: 700px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: #f9fafb;
+  border-radius: 16px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.title,
+.des {
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.title {
+  width: 220px;
+  height: 38px;
+}
+
+.des {
+  width: 280px;
+  height: 38px;
+}
+
+.title:focus,
+.des:focus {
+  border-color: #3b82f6;
+}
+
+
+.btn-action {
+  height: 38px;
+  background: #e5e7eb;
+  color: #2563eb;
+  border: 1px solid #cbd5e1;
+  padding: 0 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-action:hover {
+  background: #dbeafe;
+  border-color: #93c5fd;
+}
+
